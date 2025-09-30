@@ -36,3 +36,12 @@ Option	Purpose
 -n	no DNS lookup
 -R	reverse-DNS lookup for all hosts
 -sn	host discovery only
+
+
+nmap -sV -p 21,22,23,25,80,110,139,143,443,445,3306,8080 10.10.100.113
+
+
+
+
+
+sudo nmap -sV -p 21,22,23,25,80,110,139,143,443,445,3306,8080 10.10.100.111
